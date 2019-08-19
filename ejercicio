@@ -1,0 +1,54 @@
+armas = ['pistola','escopeta']
+cargadores = {
+    'pistola': [10, 10], 
+    'escopeta': [2, 2, 2, 2, 2]
+}
+t=0
+for x in armas:
+    if x in cargadores:
+        t += sum(cargadores[x])
+print (t)
+30
+
+
+armas = ['pistola', 'ametralladora', 'escopeta', 'fusil de francotirador']
+cargadores = {
+    'pistola': [12, 13, 4, 5, 20, 17], 
+    'ametralladora': [33, 40], 
+    'escopeta': [2, 2, 2, 1], 
+    'fusil de francotirador': [1, 2, 4]
+}
+t=0
+for x in armas:
+    if x in cargadores:
+        t += sum(cargadores[x])
+print (t) 
+158
+
+armas = ['pistola', 'ametralladora', 'escopeta', 'fusil de francotirador']
+cargadores = {
+    'pistola': [12, 13, 4, 5, 20, 17], 
+    'ametralladora': [33, 40], 
+    'escopeta': [2, 2, 2, 1], 
+    'fusil de francotirador': [1, 2, 4], 
+    'bazoka': [1, 1]
+}
+t = 0
+for x in armas:
+    if x in cargadores:
+        t += sum(cargadores[x])
+print (t)
+158
+
+armas = ['pistola', 'ametralladora', 'escopeta', 'fusil de francotirador']
+cargadores = {
+    'pistola': [12, 13, 4, 5, 20, 17], 
+    'ametralladora': [33, 40], 
+    'escopeta': [2, 2, 2, 1] 
+}
+t = 0
+for x in armas:
+    if x in cargadores:
+        t += sum(cargadores[x])
+print (t)
+151
